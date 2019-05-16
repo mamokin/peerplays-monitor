@@ -1,0 +1,24 @@
+@import '../../assets/styles/common.scss';
+
+html {
+  background-color: rgb(25, 40, 55);
+}
+
+.code-me {
+  @extend .flex;
+
+  flex-direction: column;
+  padding: 10px;
+  color: rgb(0, 255, 98);
+  text-align: center;
+}
+
+.btn {
+  &--red {
+    background-color: rgb(103, 131, 255);
+  }
+
+  &:hover {
+    background-color: rgb(127, 131, 255);
+  }
+}
